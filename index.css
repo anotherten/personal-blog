@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+}
+.index-bg {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slef-introduce {
+  font-size: 36px;
+  color: white;
+}
+
+.slef-introduce {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.sub-title {
+  font-style: italic;
+  font-size: 16px;
+}
